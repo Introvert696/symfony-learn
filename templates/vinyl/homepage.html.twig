@@ -1,0 +1,20 @@
+<h1>{{ title }}</h1>
+
+{# TODO: say somethink an comment #}
+
+<div>
+ Our schweet track list TODO
+
+    <ul>
+        {% for track in tracks %}
+            <li>
+                {{track.artist}} - {{track.song}}
+            </li>
+        {% endfor %}
+    </ul>
+
+
+</div>
+
+
+
