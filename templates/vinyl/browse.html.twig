@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	{{ genre ? genre : 'All genre'}}
+
+	<a class="" aria-current="page" href="{{path('app_browse',{ slug: 'lo-fi' })}}">lo fi</a>
+	<a class="" href="{{path('app_browse',{ slug: 'dead-methal' })}}">dead metal</a>
+{% endblock %}
